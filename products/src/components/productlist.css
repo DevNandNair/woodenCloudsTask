@@ -1,0 +1,35 @@
+.mainBox {
+    width: 1000px;
+    height: auto;
+    background-color: hsl(208, 100%, 97%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  .title {
+    
+    margin-bottom: 20px;
+    font-family: cursive;
+  }
+  
+  .tableContainer {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .searchbar{
+
+    width: 300px;
+    margin-left: 500px;
+
+   
+  }
+  .addbutton{
+    
+  }
+
+  .productFlexDiv{
+    padding-top: 20px;
+    display: flex;
+  }
+  

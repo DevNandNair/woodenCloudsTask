@@ -1,0 +1,194 @@
+{
+    "category": "category_id",
+    "products": [
+      {
+        "name": "Iphone 16 Pro Max",
+        "related_product_name": "iphone 16 pro max",
+        "product_type": "normal_product",
+        "product_description": "iphone 16 pro max 256 gb black",
+        "product_spec": "256 GB ROM with 16 GB RAM",
+        "brand_id": "brand_id",
+        "product_marketing": "popular",
+        "product_sku": "ABC123098XYZ",
+        "warranty": "1_year",
+        "return_in": "7_days",
+        "actual_price": "1499",
+        "display_price": "1399",
+        "referral_amount": "10",
+        "cashback_amount": "99",
+        "hsn_code": "876543212345678",
+        "gst": "100",
+        "weight": "2",
+        "length": "80",
+        "width": "100",
+        "height": "10",
+        "color": "Black",
+        "material": "Aluminum",
+        "manufacturer": "Apple Inc.",
+        "origin_country": "USA",
+        "category_name": "Smartphones",
+        "tags": ["electronics", "smartphone", "new"],
+        "images": [
+          {
+            "image_url": "https://via.placeholder.com/150",
+            "alt_text": "Iphone 16 Pro Max front view"
+          }
+        ],
+        "attributes": {
+          "display_name": "SIZE",
+          "attributes": [
+            {
+              "attribute_id": "small_id",
+              "quantity": "100",
+              "sku": "asdfghjkpoiuytrewq",
+              "price": "1499",
+              "color": "Black",
+              "size": "Small"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Samsung Galaxy S25",
+        "related_product_name": "samsung galaxy s25",
+        "product_type": "normal_product",
+        "product_description": "Samsung Galaxy S25 128 GB Blue",
+        "product_spec": "128 GB ROM with 12 GB RAM",
+        "brand_id": "brand_id_samsung",
+        "product_marketing": "trending",
+        "product_sku": "SAMS123ABC789",
+        "warranty": "2_years",
+        "return_in": "15_days",
+        "actual_price": "1099",
+        "display_price": "999",
+        "referral_amount": "15",
+        "cashback_amount": "89",
+        "hsn_code": "123456789876543",
+        "gst": "75",
+        "weight": "1.5",
+        "length": "75",
+        "width": "90",
+        "height": "8",
+        "color": "Blue",
+        "material": "Glass",
+        "manufacturer": "Samsung Electronics",
+        "origin_country": "South Korea",
+        "category_name": "Smartphones",
+        "tags": ["electronics", "smartphone", "samsung", "blue"],
+        "images": [
+          {
+            "image_url": "https://via.placeholder.com/150",
+            "alt_text": "Samsung Galaxy S25 front view"
+          }
+        ],
+        "attributes": {
+          "display_name": "SIZE",
+          "attributes": [
+            {
+              "attribute_id": "medium_id",
+              "quantity": "150",
+              "sku": "sdfghjklzxcvbnmq",
+              "price": "1099",
+              "color": "Blue",
+              "size": "Medium"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Google Pixel 8",
+        "related_product_name": "google pixel 8",
+        "product_type": "normal_product",
+        "product_description": "Google Pixel 8 64 GB White",
+        "product_spec": "64 GB ROM with 8 GB RAM",
+        "brand_id": "brand_id_google",
+        "product_marketing": "featured",
+        "product_sku": "GOOG0987TRE4321",
+        "warranty": "1_year",
+        "return_in": "30_days",
+        "actual_price": "899",
+        "display_price": "849",
+        "referral_amount": "20",
+        "cashback_amount": "59",
+        "hsn_code": "112233445566778",
+        "gst": "50",
+        "weight": "1.3",
+        "length": "70",
+        "width": "95",
+        "height": "7.5",
+        "color": "White",
+        "material": "Polycarbonate",
+        "manufacturer": "Google LLC",
+        "origin_country": "USA",
+        "category_name": "Smartphones",
+        "tags": ["electronics", "smartphone", "google", "white"],
+        "images": [
+          {
+            "image_url": "https://via.placeholder.com/150",
+            "alt_text": "Google Pixel 8 front view"
+          }
+        ],
+        "attributes": {
+          "display_name": "SIZE",
+          "attributes": [
+            {
+              "attribute_id": "large_id",
+              "quantity": "75",
+              "sku": "qwertyuiopasdfghj",
+              "price": "899",
+              "color": "White",
+              "size": "Large"
+            }
+          ]
+        }
+      },
+      {
+        "name": "OnePlus 12",
+        "related_product_name": "oneplus 12",
+        "product_type": "normal_product",
+        "product_description": "OnePlus 12 256 GB Red",
+        "product_spec": "256 GB ROM with 16 GB RAM",
+        "brand_id": "brand_id_oneplus",
+        "product_marketing": "bestseller",
+        "product_sku": "ONEPLUS098765",
+        "warranty": "1_year",
+        "return_in": "10_days",
+        "actual_price": "1199",
+        "display_price": "1099",
+        "referral_amount": "25",
+        "cashback_amount": "79",
+        "hsn_code": "998877665544332",
+        "gst": "80",
+        "weight": "1.6",
+        "length": "78",
+        "width": "88",
+        "height": "9",
+        "color": "Red",
+        "material": "Stainless Steel",
+        "manufacturer": "OnePlus Inc.",
+        "origin_country": "China",
+        "category_name": "Smartphones",
+        "tags": ["electronics", "smartphone", "oneplus", "red"],
+        "images": [
+          {
+            "image_url": "https://via.placeholder.com/150",
+            "alt_text": "OnePlus 12 front view"
+          }
+        ],
+        "attributes": {
+          "display_name": "SIZE",
+          "attributes": [
+            {
+              "attribute_id": "extra_large_id",
+              "quantity": "200",
+              "sku": "qazwsxedcrfvtgbn",
+              "price": "1199",
+              "color": "Red",
+              "size": "Extra Large"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

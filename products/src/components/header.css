@@ -1,0 +1,44 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+
+.navbar_greyshade{
+    background-color: rgb(189, 197, 197);
+    width: 160px;
+    height: 40px;
+   position: absolute;
+   top: 10px;
+   left: 30px;
+   border-radius: 30px;
+}
+
+.vertical-line {
+    border-left: 2px solid rgb(233, 229, 229); 
+    height: 30px; 
+    margin: 0 20px; 
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+
+
+
+
+
+
+.avatar{
+    position: absolute;
+    right: 78px;
+    top: 12px;
+
+}
+
+.flexDiv{
+    display: flex;
+    gap: 20px;
+}
