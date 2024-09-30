@@ -2,9 +2,17 @@ import React from 'react'
 import './sidebar.css'
 import { Dashboard, Settings ,List,DeliveryDiningSharp,Inventory,AccountBox,BrandingWatermarkSharp,Store,Business,Handshake,People} from "@mui/icons-material"
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import { useNavigate } from 'react-router-dom';
 
 
 const Sidebar = () => {
+    const navigate = useNavigate()
+
+
+    function productList(){
+        navigate('/productlist')
+    }
+
     return (
         <div className='sidebar'>
             <p className='admin_ptag'>Admin<hr /></p>
@@ -12,10 +20,10 @@ const Sidebar = () => {
             <a href=""><Dashboard></Dashboard>Dashboard</a><br /><br />
             <a href=""><LocalShippingIcon />Orders</a><br /><br />
 
-            <p className='admin_ptag'>OneRupee<hr /></p>
+            <p className='admin_ptag'>OneRupee<hr/></p>
             <br />
             <a href=""><List />Attributes</a><br /><br />
-            <a href="">< DeliveryDiningSharp/>Products</a><br /><br />
+            <a href="" onClick={productList}>< DeliveryDiningSharp/>Products</a><br /><br />
             <a href=""><Inventory />Inventory</a><br /><br />
             <a href=""><AccountBox />Account</a><br /><br />
             <a href=""><BrandingWatermarkSharp />Brands</a><br /><br />

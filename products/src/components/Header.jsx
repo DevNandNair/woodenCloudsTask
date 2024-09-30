@@ -1,35 +1,36 @@
-import React from 'react'
-import './header.css'
-import Sidebar from './Sidebar'
-import ProductList from './ProductList'
-import { } from '@mui/icons-material'
-import { Avatar } from '@mui/material'
+import React, { useEffect, useState } from 'react';
+import './header.css';
+import Sidebar from './Sidebar';
+import { Avatar } from '@mui/material';
 
+import { Outlet, useNavigate } from 'react-router-dom';
 
 const Header = () => {
-    return (
-        <>
-            <div className='navbar'>
-                <div className='navbar_greyshade'></div>
-                <div className='vertical-line '></div>
-                <div className='avatar'>
-                    <Avatar />
-                </div>
 
-            </div>
-          <div className='flexDiv'>
-          <Sidebar />
-            <br />
+ 
+ 
 
 
-            <div className='common_section'>
-                <ProductList />
 
-            </div>
+  return (
+    <>
+      <div className='navbar'>
+        <div className='navbar_greyshade'></div>
+        <div className='vertical-line'></div>
+        <div className='avatar'>
+          <Avatar />
+        </div>
+      </div>
 
-          </div>
-        </>
-    )
-}
+      <div className='flexDiv'>
+        <Sidebar />
 
-export default Header
+        <div className='common_section'>
+         <Outlet/>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Header;

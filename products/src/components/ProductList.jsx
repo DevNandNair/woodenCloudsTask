@@ -4,11 +4,18 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import './productlist.css';
 import SearchBar from './SearchBar';
 import data from '../item.json'; // Import JSON data
+import { useNavigate } from 'react-router-dom';
 
 const ProductList = () => {
   const [productData, setProductData] = useState([]);
   const [anchorEl, setAnchorEl] = useState(null);
   const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const navigate = useNavigate();
+
+  const handleAddProductClick = () => {
+    navigate('/add-product');
+  };
 
   useEffect(() => {
     if (data && data.products) {
@@ -61,7 +68,9 @@ const ProductList = () => {
           <SearchBar />
         </div>
         <div className='addbutton'>
-          <Button variant="outlined">Add Product</Button>
+           <Button variant="outlined" onClick={handleAddProductClick}>
+          Add Product
+        </Button>
         </div>
       </div>
       
@@ -112,14 +121,13 @@ const ProductList = () => {
                     >
                       <MoreVertIcon />
                     </IconButton>
-                    {/* Menu for Action Options */}
                     <Menu
                       anchorEl={anchorEl}
                       open={Boolean(anchorEl && selectedProduct?.id === product.id)}
                       onClose={handleMenuClose}
                       PaperProps={{
                         style: {
-                          maxHeight: 48 * 4.5, // Limit menu height
+                          maxHeight: 48 * 4.5, 
                           width: '20ch',
                         },
                       }}

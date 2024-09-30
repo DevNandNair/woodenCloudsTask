@@ -1,0 +1,46 @@
+.addProductsContainer {
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .sub_text {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .addProductCard {
+    width: 1000px; /* Make the card full width */
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .categoryTitle {
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 8px; /* Add some space below the title */
+    text-align: left; /* Align titles to the left */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .cancelButton {
+    color: black;
+  }
+  
+  .nextButton {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Style for the dropdowns to ensure they are 100% width */
+  .MuiSelect-root {
+    width: 100%; /* Ensures the dropdown takes full width */
+  }
+  
