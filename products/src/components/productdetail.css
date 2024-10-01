@@ -1,0 +1,127 @@
+.card-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.product-details-flexdiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.product-card {
+    max-width: 700px; 
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-right: 16px;
+    flex: 1; /* Allows flexibility in width */
+}
+
+.inner-detail-card {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.blue-box {
+    background-color: #e0f7fa;
+    border: 2px solid #87ceeb;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 10px 0;
+}
+
+.bold-text {
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.small-paragraph {
+    margin-top: 8px;
+    color: #555;
+}
+
+.section-header {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.section-divider {
+    border: none;
+    height: 1.5px;
+    background: #c1c4c5;
+    margin: 5px 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .product-card {
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .section-divider {
+        width: 100%;
+    }
+
+    /* Adjust padding and margins for smaller screens */
+    .card-container {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .inner-detail-card {
+        padding: 16px; /* Reduce padding */
+    }
+
+    .blue-box {
+        padding: 12px; /* Reduce padding */
+    }
+
+    .bold-text {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    .small-paragraph {
+        font-size: 12px; /* Reduce font size */
+    }
+
+    .section-header {
+        font-size: 16px; /* Adjust header size */
+    }
+
+    /* Stack product details vertically for smaller screens */
+    .product-details-flexdiv {
+        flex-direction: column; /* Change to column layout */
+        align-items: flex-start; /* Align items to the start */
+    }
+}
+
+@media (max-width: 600px) {
+    .product-card {
+        padding: 16px; /* Further reduce padding */
+    }
+
+    .blue-box {
+        padding: 10px; /* Further reduce padding */
+    }
+
+    .bold-text {
+        font-size: 12px; /* Further reduce font size */
+    }
+
+    .small-paragraph {
+        font-size: 10px; /* Further reduce font size */
+    }
+
+    .section-header {
+        font-size: 14px; /* Further reduce header size */
+    }
+}
+
+.product-add-quantity-header {
+    display: flex;
+}

@@ -13,15 +13,15 @@
   }
   
   .addProductCard {
-    width: 1000px; /* Make the card full width */
+    width: 1000px; 
     padding: 20px;
     background-color: white;
   }
   
   .categoryTitle {
-    font-weight: bold; /* Make the title bold */
-    margin-bottom: 8px; /* Add some space below the title */
-    text-align: left; /* Align titles to the left */
+    font-weight: bold; 
+    margin-bottom: 8px; 
+    text-align: left; 
   }
   
   .buttonContainer {
@@ -39,8 +39,8 @@
     color: white;
   }
   
-  /* Style for the dropdowns to ensure they are 100% width */
+  
   .MuiSelect-root {
-    width: 100%; /* Ensures the dropdown takes full width */
+    width: 100%; 
   }
   

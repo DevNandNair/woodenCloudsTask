@@ -41,4 +41,15 @@
 .flexDiv{
     display: flex;
     gap: 20px;
+    width: 100%;
+}
+.common_section{
+    width: 100%;
+    
+}
+.bell{
+    position: absolute;
+    right: 125px;
+    top: 20px;
+    color: #b5b0b0;
 }

@@ -1,10 +1,11 @@
 .sidebar{
     width:200px;
     height: 900px;
-    background-color: #f0f8ff;
+    background-color: #ffffff;
     margin-left: 10px;
     border-radius: 10px;
     padding-inline: 10px;
+    margin-top: 2px;
 }
 
 .sidebar p{
@@ -23,7 +24,7 @@ p hr{
     display: flex;
 }
 
-.sidebar a{
+.sidebar_links{
     text-decoration: none;
     color: rgb(111, 111, 111);
     font-family: cursive;
@@ -31,7 +32,7 @@ p hr{
     padding: 10px;
 }
 
-.sidebar a:hover{
+.sidebar_links:hover{
     background-color:rgb(61, 163, 236) ;
     height: 100px;
     padding-right: 70px;

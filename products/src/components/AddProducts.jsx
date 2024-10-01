@@ -1,8 +1,13 @@
 import React from 'react';
 import { Card, CardContent, Typography, MenuItem, Select, Button, Grid } from '@mui/material';
 import './addproduct.css';
+import { useNavigate } from 'react-router-dom';
 
 const AddProducts = () => {
+
+    const navigate = useNavigate()
+
+
   return (
     <div className="addProductsContainer">
       <div className="headingBlock">
@@ -11,7 +16,6 @@ const AddProducts = () => {
         <br />
       </div>
 
-      {/* Set full width for the card */}
       <Card variant="outlined" className="addProductCard">
         <CardContent>
           <Typography variant="h6" gutterBottom>
@@ -84,7 +88,7 @@ const AddProducts = () => {
             <Button variant="outlined" className="cancelButton" style={{ marginRight: '16px' }}>
               Cancel
             </Button>
-            <Button variant="contained" color="primary" className="nextButton">
+            <Button onClick={()=>{navigate('/product-details')}} variant="contained" color="primary" className="nextButton">
               Next
             </Button>
           </div>
