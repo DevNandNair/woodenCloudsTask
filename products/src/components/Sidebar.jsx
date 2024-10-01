@@ -38,7 +38,7 @@ const Sidebar = () => {
 
 
 
-            <a className='settings' href=""><Settings /> Settings</a><br /><br />
+            <Link to="" className="sidebar_links"><Settings />Settings</Link><br /><br />
 
 
 
