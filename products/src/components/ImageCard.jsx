@@ -72,7 +72,7 @@ const ImageCard = () => {
                 </Typography>
 
 
-                {/* Add Additional Photos Section */}
+                {/* add additional photos section */}
                 <label style={{
                     display: 'block',
                     border: '2px solid skyblue',

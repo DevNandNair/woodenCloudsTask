@@ -18,10 +18,10 @@ const ProductList = () => {
   };
 
   useEffect(() => {
-    if (data && data.products) {
+    if (data && data.products) {//replacing missing fields in the json file
       const formattedProducts = data.products.map((product, index) => ({
         id: index + 1,
-        image: 'https://via.placeholder.com/50',
+        image: 'https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-hero-geo-240909_inline.jpg.large.jpg',
         productName: product.name,
         items: product.attributes?.attributes[0]?.quantity || 0,
         createdBy: 'Admin',
@@ -31,14 +31,15 @@ const ProductList = () => {
       setProductData(formattedProducts);
     }
   }, []);
-
+  
+//status badge
   const handleStatusChange = (index) => {
     const updatedProducts = [...productData];
     updatedProducts[index].status = updatedProducts[index].status === 'Active' ? 'Inactive' : 'Active';
     setProductData(updatedProducts);
   };
 
-  // Function to handle menu open/close
+  // function to handle menu open/close
   const handleMenuClick = (event, product) => {
     setAnchorEl(event.currentTarget);
     setSelectedProduct(product);
